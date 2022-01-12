@@ -163,7 +163,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/fulls/hallbanner.jpg");
+		background-image: #625755;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
