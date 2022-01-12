@@ -233,6 +233,9 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-weight: bold;
+		font-family: serif;
+		color: #B2BABB;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1636,13 +1639,28 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				border: 0;
-				height: 100%;
+				border:  5px solid #5D6D7E;
+				border-bottom: 5px solid #5D6D7E;
+				border-top: 5px solid #5D6D7E;
+				height: 95%;
 				left: 0;
 				position: absolute;
 				top: 0;
-				width: 100%;
+				width: 97%;
 			}
+
+			
+			#imageh {
+				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+				border:  5px solid #EBEDEF;
+				border-bottom: 5px solid #EBEDEF;
+				border-top: 5px solid #EBEDEF;
+				height: 95%;
+			}
+
+			imgbor {
+  				border: 5px solid #F4F6F7;
+				}
 
 			#main .thumb > h2 {
 				pointer-events: none;
@@ -2042,7 +2060,7 @@ input, select, textarea {
 
 	#footer .copyright {
 		color: #505051;
-		font-size: .95em;
+		font-size: 0.9em;
 	}
 
 		#footer .copyright a {
